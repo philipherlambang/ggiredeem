@@ -1,0 +1,73 @@
+.text-black{
+	color: #000;
+}
+
+.text-blue{
+	color: #2693c6;
+}
+
+.text-title{
+	/*text-decoration: underline;*/
+	text-transform: uppercase;
+	color: #2693c6;
+	letter-spacing: 2px;
+	margin: 15px auto;
+	font-family: 'Muli', sans-serif;
+	display: inline-block;
+  padding-bottom: 5px;
+  position: relative;
+  text-align: center;
+}
+
+
+.text-title:before{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: 0;
+    left: 25%;
+    border-bottom: 1px solid #2693c6;
+}
+
+.phone-thumbnail a p{
+	color: #000;
+	font-size: 20px;
+}
+
+.phone-thumbnail >a{
+	display: block;
+}
+
+.phone-thumbnail {
+	margin-top: 30px;
+}
+
+.btn-default{
+	border-radius: 20px;
+	text-transform: uppercase;
+}
+
+.btn-default:hover{
+	background: #3399cc;
+	color: #fff;
+	border: 1px solid #3399cc;
+}
+
+.dashed-bordered{
+	border-bottom: 1px dashed #ccc;
+}
+
+.input-data label{
+	font-family: 'Muli';
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #2693c6;
+}
+
+.input-data input{
+	background: #f6f4f7;
+	width: 90%;
+	border: 1px solid #cfcfcf;
+	border-radius: 0;
+}
