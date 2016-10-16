@@ -71,3 +71,14 @@
 	border: 1px solid #cfcfcf;
 	border-radius: 0;
 }
+
+.error-message{
+	background: #ffcbcd;
+	border: 1px solid #df8f8e;
+	padding: 10px;
+	text-align: center;
+	color: #d24a56;
+	font-family: Muli;
+	overflow: auto;
+	margin: 5px 0;
+}
