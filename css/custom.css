@@ -118,3 +118,8 @@ html{
 	overflow: auto;
 	margin: 5px 0;
 }
+
+.gap-bottom-small{
+	margin-bottom: 30px;
+	clear: both;
+}
